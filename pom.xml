@@ -157,6 +157,18 @@
       <version>${hsqldb.version}</version>
       <classifier>jdk8</classifier>
     </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <scope>runtime</scope>
+      <version>42.7.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-jdbc</artifactId>
+      <scope>runtime</scope>
+      <version>10.1.30</version>
+    </dependency>
 
     <!-- Test dependencies -->
     <dependency>
